@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -17,13 +18,67 @@
 
 <body>
   <div w3-include-html="../header.html"></div>
-  <div class="container-fluid">
+
+
+
+  <!--Aqui vai a página do curso-->
+  <!--Grid-->
+  <div class="container tabs">
     <div class="row">
-      <div class="col-sm">
-        Aqui vai sua página
+      <div class="col">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqAI-5Hrb_43xXcjOpjUoi4qH_V6UCTGxeG-5cKcMlRCaABJM-vw">
+      </div>
+      <div class="col">
+        <h2>Mão na massa</h2>
+      </div>
+      <div class="col">
+        <button type="button" class="btn">Primary</button>
       </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <!--Tabs-->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <p><b>Descrição</b>: Curso sobre Lorem Ipsum, aqui vc aprende a gerar textões aleatórios, perfeitos para enviar para todos os seus amigos pelo facebook. Primeiro vc pesquisa por lorem Ipsum no Google, abre o primeiro link, copia e
+              cola o que aparecer lá, depois procure por uma receita e adicione no meio do texto, e ninguém vai perceber. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec suscipit nibh. Praesent porta vulputate ipsum a
+              pulvinar. Aenean sit amet cursus leo, nec viverra mi. Vivamus at maximus augue. Proin pharetra neque sed ultricies aliquet.
+            </p>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            tab2
+          </div>
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            tab3
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <img id="location-icon" src="images/location-icon.png">
+      <p>Local</p>
+    </div>
+    <div class="row">
+      <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=
+    AIzaSyD2iTFB6jOZX4lKRxGezpV-9rjlW_E-V1E
+    &q=Space+Needle,Seattle+WA" allowfullscreen>
+    </iframe>
+    </div>
   </div>
+
+
+
   <div w3-include-html="../footer.html"></div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -32,4 +87,5 @@
   <script src="../scripts/main.js"></script>
   <script src="./curso.js"></script>
 </body>
+
 </html>

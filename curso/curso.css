@@ -1,0 +1,28 @@
+#location-icon {
+    height: 50px;
+}
+
+.navbar {
+    background-color: #3FA2E2;
+}
+
+.row {
+    margin-top: 35px;
+}
+
+.negative-logo {
+    height: 35px;
+}
+
+p {
+    padding: 10px;
+}
+
+img {
+    height: 100px;
+}
+
+button {
+    background-color: #3FA2E2;
+    color: #FFFFFF;
+}
