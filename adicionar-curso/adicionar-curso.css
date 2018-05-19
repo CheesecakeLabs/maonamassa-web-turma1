@@ -1,25 +1,32 @@
 html,body {
-    height: 100%;
-  }
-  
-  .navBar {
-    border-bottom: 3px solid #3fa2e2;
-  }
-  
-  .image {
-    min-height: 100%;
-    background-image: url("http://imgstocks.com/wp-content/uploads/2014/01/Hd-wallpapers-water-abstract.jpg");
-    background-size: cover;
-    padding: 30px; 
-  }
-  
-  
-  .formulario {
-    color: white;
-    padding-top: 60px;
-  }
+  height: 100%;
+}
 
-  #body__title{
-    color: white;
-  }
-  
+.navBar {
+border-bottom: 3px solid #3fa2e2;
+}
+
+.image {
+  min-height: 100%;
+  background-image: url("http://imgstocks.com/wp-content/uploads/2014/01/Hd-wallpapers-water-abstract.jpg");
+  background-size: cover;
+  padding: 30px; 
+}
+
+
+.formulario {
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#body__title{
+color: white;
+}
+
+.companyImg{
+width: 16%;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 42%;
+}
