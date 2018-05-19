@@ -1,0 +1,54 @@
+.lista-titulo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.lista-item {
+    font-size: 14px;
+    margin: 0;
+}
+
+.lista-descricao {
+    font-size: 18px;
+}
+
+.lista-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.lista-tags {
+    display: flex;
+    align-items: flex-end;
+}
+
+.lista-tags p {
+    margin-bottom: 0;
+}
+
+.lista-curso {
+    display: flex;
+}
+
+.lista-imagem {
+    display: flex;
+    align-items: center;
+}
+
+.lista-logo {
+    width: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100px;
+}
+
+.card.card-pesquisa {
+    border: 0;
+    margin: 15px 0px;
+}
+
+.custom-select.categoria-select {
+    width: 200px;
+}

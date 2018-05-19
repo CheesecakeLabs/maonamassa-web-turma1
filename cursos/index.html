@@ -1,35 +1,70 @@
 <!doctype html>
 <html class="no-js" lang="">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Cursos</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-  <link rel="stylesheet" href="../styles/libraries/normalize.css">
-  <link rel="stylesheet" href="../styles/libraries/reset.css">
-  <link rel="stylesheet" href="../styles/main.css">
-  <link rel="stylesheet" href="../styles/header.css">
-  <link rel="stylesheet" href="../styles/footer.css">
-  <link rel="stylesheet" href="./cursos.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Cursos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/libraries/normalize.css">
+    <link rel="stylesheet" href="../styles/libraries/reset.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="./cursos.css">
 </head>
 
 <body>
-  <div w3-include-html="../header.html"></div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm">
-        Aqui vai sua página
-      </div>
-    </div>
-  </div>
-  <div w3-include-html="../footer.html"></div>
+    <div w3-include-html="../header.html"></div>
+    <div class="container">
+        <div class="card card-pesquisa">
+            <select class="custom-select categoria-select">
+                <option selected>Categoria</option>
+                <option value="1">Culinária</option>
+                <option value="2">Marcenaria</option>
+                <option value="3">Tecnologia</option>
+              </select>
+        </div>
+        <div class="card">
+            <div class="row">
+                <div class="col-6 col-md-4 lista-curso">
+                    <div class="lista-imagem"> <img class="lista-logo" src="https://s3.amazonaws.com/ckl-blog-static/misc/onde-tem/Logo-negativo.svg"></div>
+                    <div class="card-body">
+                        <h5 class="lista-titulo">Mão na massa - Android avançado/kotlin</h5>
+                        <p class="lista-item">Avenida Mauro Ramos - IFSC</p>
+                        <p class="lista-item">Data de inicio: 14/03/2018</p>
+                        <p class="lista-item">Periodo de inscrição: 18/02/2018 - 27/02/2018</p>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-  <script src="../scripts/main.js"></script>
-  <script src="./cursos.js"></script>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 lista-descricao">
+                    <div class="card-body">
+                        <h5 class="lista-descricao">Curso sobre Android avançado, o segundo módulo do curso, com foco em Kotlin, apresentando facilidades que a linguagem pode oferecer para o desenvolvimento.</h5>
+                    </div>
+                    <div class="card-body lista-tags">
+                        <p class="">Tags: Tecnologia.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div w3-include-html="../footer.html"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="./cursos.js"></script>
 </body>
+
 </html>
