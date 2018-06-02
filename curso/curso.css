@@ -26,3 +26,7 @@ button {
     background-color: #3FA2E2;
     color: #FFFFFF;
 }
+
+.tab-content {
+    border: 3px solid #3FA2E2;
+}
