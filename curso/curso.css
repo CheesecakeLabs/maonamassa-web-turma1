@@ -28,5 +28,41 @@ button {
 }
 
 .tab-content {
-    border: 3px solid #3FA2E2;
+    border: 5px solid #3FA2E2;
+    min-height: 250px;
+}
+
+.nav-tabs .nav-link{
+    /* border: solid #3FA2E2; */
+    background-color:#91CBF0;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.nav-tabs .nav-link.active {
+    background-color: #3FA2E2;
+    color: black;
+    border-color: #3FA2E2;
+}
+
+.nav-tabs .nav-item :hover{
+    border
+
+}
+
+.nav-tabs .nav-item a{
+    color: #000;
+
+}
+
+.curso__topo .col{
+    display:flex;
+    align-items: flex-end;
+}
+.curso__topo .btn{
+    margin-left:auto;
+}
+
+.carousel-inner img {
+    min-height: 400px;
 }
