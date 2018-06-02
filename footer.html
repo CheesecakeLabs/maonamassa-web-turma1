@@ -1,47 +1,51 @@
 <div class="container-fluid">
-  <div class="row">
+  <div class="row footer">
     <div class="col-sm">
       <div class="container">
         <grid>
-          <center>
-            <p> Contato</p>
-            <p>Preencha os campos abaixo para entrar em contato conosco</p>
+          
+          <center >
+            <div class= "text">
+              <h1>Contato</h1>
+              <p>Preencha os campos abaixo para entrar em contato conosco</p>
+            </div>
             <form>
               <div class="form-group">
-                <label for="exampleFormcontrolInput1">Nome</label>
-                <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="nome" required>
-                <label for="Obrigatorio">*</label>
+                <input type="nome" class="form-control" id="exampleFormControlInput1" placeholder="Nome:" required>
                 <br>
 
                 <div class="form-group">
-                  <label for="exampleFormControlInput1">Email</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail:" required>
                 </div>
+
                 <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Dúvidas/mensagens:</label>
                   <br>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dúvidas/mensagens:" required></textarea>
                   <br>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
-                <p> Parcerias</p>
-                <div class="card" style="width: 18rem;">
-
                 </div>
               </div>
             </form>
           </center>
+          <p class="text"> Parcerias</p>
+          <div class="card" style="width: 18rem;"></div>
         </grid>
       </div>
+    <div class="col-sm">
+        <div class="row justify-content-end">
+        <img class="logoImg" src="https://s3.amazonaws.com/ckl-blog-static/misc/onde-tem/logo-horizontal.svg"/>
+      </div>
+      <div class="row">
+        <div class="col-sm rodape__redes-socias">
+        <center class="text">Redes Sociais</center>
+        <img src="/home/images/facebook.svg">
+        <img src="/home/images/linkedin.svg">
+        <img src="/home/images/instagram.svg">
+      </div>
+      </div> 
+  
     </div>
-    <div class="col-sm rodape__redes-socias"  >
-      <center>Redes Sociais</center>
-      <img src="/home/images/facebook.svg">
-      <img src="/home/images/linkedin.svg">
-      <img src="/home/images/instagram.svg">
-    </div>
-
-
-
+  </div>
   </div>
 </div>
