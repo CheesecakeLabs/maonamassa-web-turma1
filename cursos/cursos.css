@@ -35,6 +35,7 @@
 .lista-imagem {
     display: flex;
     align-items: center;
+    margin-left: 15px;
 }
 
 .lista-logo {
@@ -44,11 +45,38 @@
     height: 100px;
 }
 
-.card.card-pesquisa {
-    border: 0;
-    margin: 15px 0px;
+.row.row-pesquisa {
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    /* margin: 15px 0px; */
 }
 
 .custom-select.categoria-select {
-    width: 200px;
+    /* width: 200px; */
+    border-radius: 20px;
+}
+
+.card.card-curso {
+margin-bottom:10px;
+border-radius:20px;
+box-shadow: 1px 1px 5px #888888;
+}
+.row-pesquisa .select2-container {
+    width: 100%;
+}
+
+.row-pesquisa .select2-container--default .select2-selection--multiple {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.row-pesquisa .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: solid grey 1px;
+    outline: 0;
+}
+
+.row-pesquisa .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    margin-top: 0;
+    border-radius: 20px;
 }
