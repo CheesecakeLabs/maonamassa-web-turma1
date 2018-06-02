@@ -1,5 +1,9 @@
+:root {
+    --bluecake: #3FA2E2; 
+}
+
 .navbar{
-    background-color: #3FA2E2;
+    background-color: var(--bluecake);
 }
 
 .navbar-brand img{
@@ -10,6 +14,11 @@
     border-radius: 100px;
     height:28px;
     width:225px; 
+    background-image: url(images/Lupa.svg);
+    background-repeat: no-repeat;
+    background-position: 94% 76%;
+    background-size: 20px;
+    padding-right: 35px;
 }
 .header--search-input::-webkit-input-placeholder {
     color: #BDBDBD;
@@ -28,4 +37,38 @@
 
 .navbar-expand-lg .navbar-nav.header--menu .nav-link:hover{
     color: #FFFFFF;
+}
+.header__slider{
+    padding: 0;
+
+}
+.header__slide{
+    height: 640px;
+    background-image: url(http://www.empregoerenda.com.br/images/cursos/com-as-maos-na-massa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-control-next, .carousel-control-prev {
+    z-index: 15;
+}
+.header__carousel-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    text-align: center;
+    z-index: 10;
+}
+.button-carousel{
+    border-radius: 30px;
+    padding: 2px 60px;
+    background-color:var(--bluecake);
+    border-color: var(--bluecake);
+
+}
+
+.button-carousel:hover{
+    background-color: #3f87e2;
+    border-color: #3f87e2;
 }
