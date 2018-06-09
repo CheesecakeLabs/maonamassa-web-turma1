@@ -79,4 +79,51 @@ box-shadow: 1px 1px 5px #888888;
 .row-pesquisa .select2-container--default .select2-selection--multiple .select2-selection__choice {
     margin-top: 0;
     border-radius: 20px;
+    border-color: lightgrey;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: solid lightgrey 1px;
+}
+
+.select2-container--default {
+    border-color: lightgrey;
+}
+
+.cursos-pesquisa{
+    border-radius: 20px;
+    border: solid lightgrey 1px;
+    outline: 0;
+    line-height: 1.15;
+}
+
+.cursos-pesquisa::-webkit-input-placeholder {
+    color: #b1a9ae;
+    opacity: 1; /* Firefox */
+}
+
+.cursos-pesquisa:focus {
+    outline: none !important;
+    border: 1px solid grey;
+    box-shadow: none;
+}
+
+.select2-container.select2-container--default.select2-container--open {
+    transform: translateY(2px);
+}
+
+.select2.select2-container.select2-container--default.select2-container--open {
+    transform: translateY(0px);
+}
+
+.select2-dropdown.select2-dropdown--below {
+    border-top: 1px solid #aaa;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
