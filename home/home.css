@@ -59,16 +59,66 @@
     height: 100%;
     text-align: center;
     z-index: 10;
+    margin-top: 160px;
 }
 .button-carousel{
     border-radius: 30px;
     padding: 2px 60px;
     background-color:var(--bluecake);
     border-color: var(--bluecake);
-
+    margin-top: 220px;
 }
 
 .button-carousel:hover{
     background-color: #3f87e2;
     border-color: #3f87e2;
 }
+
+.header__carousel-text p{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.header__carousel-text h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.icones__home{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 400px;
+}
+
+.img1{
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.sobre-a-equipe{
+    max-width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+
+}
+
+.sobre-a-equipe h1{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+.sobre-a-equipe p{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+
