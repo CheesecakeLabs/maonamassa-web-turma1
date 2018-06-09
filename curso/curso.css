@@ -1,3 +1,7 @@
+body {
+    background-color: #d5dae2;
+}
+
 #location-icon {
     height: 50px;
 }
@@ -10,11 +14,16 @@
     margin-top: 35px;
 }
 
+.row--nm {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
 .negative-logo {
     height: 35px;
 }
 
-p {
+.local__text {
     padding: 10px;
 }
 
@@ -32,8 +41,12 @@ button {
     min-height: 250px;
 }
 
+.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 1px;
+}
+
 .nav-tabs .nav-link{
-    /* border: solid #3FA2E2; */
     background-color:#91CBF0;
     border-radius: 5px 5px 0 0;
 }
@@ -65,4 +78,20 @@ button {
 
 .carousel-inner img {
     min-height: 400px;
+}
+
+.tab-content{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+iframe {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 35px; 
+}
+
+ul {
+    list-style-type:none
 }
