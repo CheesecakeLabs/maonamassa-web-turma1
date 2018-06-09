@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:#3FADDC
+    background-color:rgb(57, 168, 216)
 }
 
 
@@ -22,3 +22,20 @@ color: white;
     margin: 25px;
     height: 58px;
 }
+
+
+.rodape_parceiros{
+    text-align: center;
+    padding: 10px;
+    background-color: #05638a;
+    height: 100%;
+
+}
+
+.rodape_parceiros img {
+
+height: 110px;
+
+
+}
+
