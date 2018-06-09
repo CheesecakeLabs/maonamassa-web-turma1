@@ -16,17 +16,34 @@ border-bottom: 3px solid #3fa2e2;
 
 .formulario {
   color: white;
-  margin-left: 30%;
-  margin-right: 30%;
 }
 
 #body__title{
 color: white;
+margin: 0px;
+margin-bottom: 100px;
 }
 
 .companyImg{
-width: 16%;
-margin-top: 50px;
+width: 70%;
+height: 50px;
 margin-bottom: 50px;
-margin-left: 42%;
+margin: auto;
+
+}
+.companyImg .krajee-default.file-preview-frame {
+  margin: 0px;
+}
+.file-preview-thumbnails{
+  width: 100%;
+}
+.file-preview-frame.krajee-default.kv-preview-thumb{
+  width: 100%;
+}
+.companyImg .krajee-default.file-preview-frame .kv-file-content {
+  width: 100%;
+}
+.enviar{
+  margin-top: 25px;
+  margin-left: 40%;
 }
