@@ -1,0 +1,41 @@
+.rodape__redes-socias {
+    text-align: center;
+    margin-top: 9%;
+
+}
+
+body {
+    background-color:rgb(57, 168, 216)
+}
+
+
+.text{
+
+color: white;
+
+
+}
+.footer{
+    margin-top: 2.5%;
+}
+.logoImg{
+    margin: 25px;
+    height: 58px;
+}
+
+
+.rodape_parceiros{
+    text-align: center;
+    padding: 10px;
+    background-color: #05638a;
+    height: 100%;
+
+}
+
+.rodape_parceiros img {
+
+height: 110px;
+
+
+}
+
