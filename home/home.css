@@ -1,43 +1,3 @@
-:root {
-    --bluecake: #3FA2E2; 
-}
-
-.navbar{
-    background-color: var(--bluecake);
-}
-
-.navbar-brand img{
-    width:100px;
-}
-
-.header--search-input{
-    border-radius: 100px;
-    height:28px;
-    width:225px; 
-    background-image: url(images/Lupa.svg);
-    background-repeat: no-repeat;
-    background-position: 94% 76%;
-    background-size: 20px;
-    padding-right: 35px;
-}
-.header--search-input::-webkit-input-placeholder {
-    color: #BDBDBD;
-}
-.header--menu .nav-item {
-    border-right: 2px white solid;
-
-}
-.header--menu .nav-item:last-child {
-    border-right: none;
-}
- .navbar-expand-lg .navbar-nav.header--menu .nav-link{
-    padding: 1px 40px;
-    color: #F0F0F0;
-}
-
-.navbar-expand-lg .navbar-nav.header--menu .nav-link:hover{
-    color: #FFFFFF;
-}
 .header__slider{
     padding: 0;
 
@@ -55,7 +15,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; 
+    width: 100%;
     height: 100%;
     text-align: center;
     z-index: 10;
@@ -76,7 +36,7 @@
 
 .header__carousel-text p{
     font-family: 'Lato', sans-serif;
-    
+
 }
 
 .header__carousel-text h1{
