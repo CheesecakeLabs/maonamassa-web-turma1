@@ -1,0 +1,97 @@
+body {
+    background-color: #d5dae2;
+}
+
+#location-icon {
+    height: 50px;
+}
+
+.navbar {
+    background-color: #3FA2E2;
+}
+
+.row {
+    margin-top: 35px;
+}
+
+.row--nm {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+.negative-logo {
+    height: 35px;
+}
+
+.local__text {
+    padding: 10px;
+}
+
+img {
+    height: 100px;
+}
+
+button {
+    background-color: #3FA2E2;
+    color: #FFFFFF;
+}
+
+.tab-content {
+    border: 5px solid #3FA2E2;
+    min-height: 250px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 1px;
+}
+
+.nav-tabs .nav-link{
+    background-color:#91CBF0;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.nav-tabs .nav-link.active {
+    background-color: #3FA2E2;
+    color: black;
+    border-color: #3FA2E2;
+}
+
+.nav-tabs .nav-item :hover{
+    border
+
+}
+
+.nav-tabs .nav-item a{
+    color: #000;
+
+}
+
+.curso__topo .col{
+    display:flex;
+    align-items: flex-end;
+}
+.curso__topo .btn{
+    margin-left:auto;
+}
+
+.carousel-inner img {
+    min-height: 400px;
+}
+
+.tab-content{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+iframe {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 35px; 
+}
+
+ul {
+    list-style-type:none
+}
