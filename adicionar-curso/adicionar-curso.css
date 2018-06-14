@@ -1,0 +1,49 @@
+html,body {
+  height: 100%;
+}
+
+.navBar {
+border-bottom: 3px solid #3fa2e2;
+}
+
+.image {
+  min-height: 100%;
+  background-image: url("http://imgstocks.com/wp-content/uploads/2014/01/Hd-wallpapers-water-abstract.jpg");
+  background-size: cover;
+  padding: 30px; 
+}
+
+
+.formulario {
+  color: white;
+}
+
+#body__title{
+color: white;
+margin: 0px;
+margin-bottom: 100px;
+}
+
+.companyImg{
+width: 70%;
+height: 50px;
+margin-bottom: 50px;
+margin: auto;
+
+}
+.companyImg .krajee-default.file-preview-frame {
+  margin: 0px;
+}
+.file-preview-thumbnails{
+  width: 100%;
+}
+.file-preview-frame.krajee-default.kv-preview-thumb{
+  width: 100%;
+}
+.companyImg .krajee-default.file-preview-frame .kv-file-content {
+  width: 100%;
+}
+.enviar{
+  margin-top: 25px;
+  margin-left: 40%;
+}
