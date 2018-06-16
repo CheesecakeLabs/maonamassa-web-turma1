@@ -80,5 +80,36 @@
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
-
-
+.img__sobre{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 700px;
+}
+.img__sobre img{
+    width: 100%;
+}
+.header__carousel-text h3{
+   color: #F2F2F2;
+}
+.header__carousel-text h1{
+    color: #F2F2F2;
+}
+.line__one{
+    background-color: #3f87e2;
+    height: 2px;
+    display: block;
+    width: 100%;
+}
+.line__two{
+    background-color: #3f87e2;
+    height: 2px;
+    display: block;
+    width: 100%; 
+}
+.icones__home h1{
+    color: #464646;
+}
+.icones__home p{
+    color: #666666;
+}
