@@ -6,7 +6,7 @@ html,body {
 border-bottom: 3px solid #3fa2e2;
 }
 
-.image {
+.fullheightbg {
   min-height: 100%;
   background-image: url("http://imgstocks.com/wp-content/uploads/2014/01/Hd-wallpapers-water-abstract.jpg");
   background-size: cover;
