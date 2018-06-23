@@ -19,7 +19,6 @@ font-family: var(--fonte-titulo);
 
 .companyImg{
 width: 70%;
-height: 50px;
 margin-bottom: 50px;
 margin: auto;
 
@@ -36,10 +35,7 @@ margin: auto;
 .companyImg .krajee-default.file-preview-frame .kv-file-content {
   width: 100%;
 }
-.enviar{
-  margin-top: 25px;
-  margin-left: 40%;
-}
+
 .btn-primary {
   background-color: var(--bluecake);
   border-color: var(--bluecake);
@@ -53,4 +49,8 @@ body {
   border-color: #e23f51;
   width: 100%; 
 
+}
+.enviar-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
 }
