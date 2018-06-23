@@ -1,19 +1,10 @@
 .rodape__redes-socias {
     text-align: center;
     margin-top: 20%;
-
 }
-
-body {
-    
-}
-
 
 .text{
-
-color: white;
-
-
+    color: white;
 }
 .footer{
     margin-top: 2.5%;
@@ -24,19 +15,14 @@ color: white;
     height: 58px;
 }
 
-
 .rodape_parceiros{
     text-align: center;
     padding: 10px;
     background-color: #05638a;
     height: 100%;
-
 }
 
 .rodape_parceiros img {
-
-height: 110px;
-
-
+    height: 110px;
 }
 
