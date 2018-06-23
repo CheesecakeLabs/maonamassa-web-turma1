@@ -49,9 +49,7 @@
 }
 
 .header__carousel-text h1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
+    font: bold 50px var( --fonte-titulo); 
 }
 
 .icones__home{
@@ -67,6 +65,14 @@
     padding-top: 50px;
 }
 
+.img1 h1{
+    font-family: var( --fonte-titulo);
+
+}
+
+.img1 p{
+    font-family: var( --fonte-corpo);
+}
 
 .sobre-a-equipe{
     max-width: 80%;
