@@ -70,13 +70,8 @@ button {
     border-color: #3FA2E2;
 }
 
-.nav-tabs .nav-item :hover{
-    /* border: ; */
-}
-
 .nav-tabs .nav-item a{
     color: #000;
-
 }
 
 .curso__topo .col{

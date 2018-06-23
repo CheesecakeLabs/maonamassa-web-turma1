@@ -21,7 +21,7 @@
 
 <body>
   <div w3-include-html="../header.html"></div>
-  <div class="image">
+  <div class="fullheightbg">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -29,13 +29,6 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
-          <div class="companyImg">
-            <div class="file-loading">
-              <input id="input-fa" name="input-fa[]" type="file" accept=".jpg,.png">
-            </div>
-          </div>
-        </div>
         <div class="col">
           <form class="formulario">
             <div class="row">
@@ -87,6 +80,13 @@
             <a href="#" class="btn btn-primary btn-lg active enviar" role="button" aria-pressed="true">Enviar</a>
           </form>
         </div>
+        <div class="col">
+          <div class="companyImg">
+            <div class="file-loading">
+              <input id="input-fa" name="input-fa[]" type="file" accept=".jpg,.png">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -112,8 +112,8 @@
     $("#input-fa").fileinput({
       browseClass: "btn btn-primary btn-block",
       showCaption: false,
-      showRemove: false,
       showUpload: false,
+      showClose: false,
       maxFileCount: 1,
     });
   </script>
