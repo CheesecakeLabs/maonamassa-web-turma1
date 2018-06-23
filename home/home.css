@@ -3,7 +3,7 @@
 
 }
 .header__slide{
-    height: 640px;
+    height: 500px;
     background-image: url(http://www.empregoerenda.com.br/images/cursos/com-as-maos-na-massa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,14 +19,19 @@
     height: 100%;
     text-align: center;
     z-index: 10;
-    margin-top: 160px;
+    text-shadow: 2px 2px 3px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 .button-carousel{
     border-radius: 30px;
-    padding: 2px 60px;
+    padding:  5px 30px;;
     background-color:var(--bluecake);
     border-color: var(--bluecake);
-    margin-top: 220px;
+    margin-top: 70px;
+    font-family: var(--fonte-corpo);
 }
 
 .button-carousel:hover{
@@ -36,6 +41,10 @@
 
 .header__carousel-text p{
     font-family: 'Lato', sans-serif;
+}
+
+.header__carousel-text h3{
+    font-size: 2rem;
 
 }
 
@@ -43,7 +52,6 @@
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: bold;
-
 }
 
 .icones__home{
@@ -64,37 +72,49 @@
     max-width: 80%;
     height: 1000px;
     margin: 0 auto;
-
+    text-align: center;
+    
 }
 
 .sobre-a-equipe h1{
     padding-top: 50px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--fonte-titulo);
     font-size: 30px;
     font-weight: bold;
-
+    color: #464646;
 
 }
 
 .sobre-a-equipe p{
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--fonte-corpo);
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #303030;
 }
 .img__sobre{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 700px;
+    height: 400px;
+    width: 800px;
+    object-fit: cover;
+    max-width: 800px;
+    border-radius: 5px;
 }
 .img__sobre img{
     width: 100%;
 }
 .header__carousel-text h3{
    color: #F2F2F2;
+   font-family: var(--fonte-titulo);
 }
 .header__carousel-text h1{
     color: #F2F2F2;
+    font-family: var(--fonte-titulo);
 }
 .line__one{
     background-color: #3f87e2;
