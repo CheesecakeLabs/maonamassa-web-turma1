@@ -46,7 +46,7 @@
           </a>
           <div class="header__carousel-text">
             <h1>Amplie seu conhecimento.</h1>
-            <p>Encontre cursos gratuitos perto de você!</p>
+            <p><h3>Encontre cursos gratuitos perto de você!</h3></p>
             <p><button type="button" class="btn btn-primary btn-lg button-carousel">Conheça os cursos</button>
             </p>
           </div>
@@ -55,6 +55,8 @@
     </div>
   </div>
 
+  <div class="line__one"></div>
+  
   <div class="icones__home">
     <div class="row">
       <div class="img1 col-4">
@@ -77,12 +79,12 @@
     </div>
   </div>
 
-  <div class="sobre-a-equipe">
+  <div class="sobre-a-equipe" id="sobre">
     <h1>Sobre a equipe Onde Tem</h1>
     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
     </p>
-    <img src="https://www.itforum365.com.br/wp-content/uploads/2018/01/m%C3%A3o-na-massa.jpg"/>
+    <img class="imgsobre" src="https://www.itforum365.com.br/wp-content/uploads/2018/01/m%C3%A3o-na-massa.jpg"/>
   </div>
 
   <div w3-include-html="footer.html"></div>
@@ -95,6 +97,13 @@
       crossorigin="anonymous"></script>
     <script src="scripts/main.js"></script>
     <script src="home/home.js"></script>
+    <script src="scripts/scrollreveal.min.js"></script>
+    <script type="text/javascript"> 
+    window.sr = ScrollReveal({ viewFactor: 0.6,
+ });
+
+      sr.reveal('.img1');
+      </script>
 </body>
 
 </html>
