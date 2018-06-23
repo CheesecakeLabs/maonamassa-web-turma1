@@ -1,22 +1,30 @@
 .lista-titulo {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .lista-item {
     font-size: 14px;
     margin: 0;
+    color: #939393;
 }
 
 .lista-descricao {
-    font-size: 18px;
-}
-
-.lista-descricao {
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+
+}
+
+@media (max-width: 991px) 
+{
+    .lista-descricao {
+    margin-top: 8px;
+    
+    }
+ 
 }
 
 .lista-tags {
@@ -35,14 +43,13 @@
 .lista-imagem {
     display: flex;
     align-items: center;
-    margin-left: 15px;
 }
 
 .lista-logo {
-    width: 100px;
+    width: 100%;
     border-radius: 8px;
     overflow: hidden;
-    height: 100px;
+    height: auto;
 }
 
 .row.row-pesquisa {
@@ -51,6 +58,13 @@
     /* margin: 15px 0px; */
 }
 
+@media (max-width: 991px) 
+{
+    .row-pesquisa {
+    padding: 5px;
+    display: block;
+    }
+}
 .custom-select.categoria-select {
     /* width: 200px; */
     border-radius: 20px;
@@ -58,15 +72,14 @@
 
 .card.card-curso {
 margin-bottom:10px;
-border-radius:20px;
-box-shadow: 1px 1px 5px #888888;
-
+border-radius:8px;
+box-shadow: 1px 1px 5px #EEEEEE;
+padding: 16px;
 }
+
 .card.card-curso a {
     color: #212529;
     text-decoration: none;
-
-
 } 
 .row-pesquisa .select2-container {
     width: 100%;
@@ -141,22 +154,16 @@ margin-left: 5.5px;
 }
 .cursos-pesquisa-botao{
     border-radius: 20px;
-   
-
 }
 .cursos-pesquisa-botao:focus{
     outline: none !important;
     border: 1px solid grey;
     box-shadow: none !important;
-
 }
 .custom-select.categoria-select {
     /* display: none; */
     opacity: 0 ;
-
-
 }
 body {
     background-color: #fff;
 }
-
