@@ -1,32 +1,24 @@
-html,body {
-  height: 100%;
-}
-
-.navBar {
-border-bottom: 3px solid #3fa2e2;
-}
-
 .fullheightbg {
   min-height: 100%;
-  background-image: url("http://imgstocks.com/wp-content/uploads/2014/01/Hd-wallpapers-water-abstract.jpg");
+  background-color: var(--cor-fundo);
   background-size: cover;
   padding: 30px; 
 }
 
 
 .formulario {
-  color: white;
+  color: var(--cor-texto);
 }
 
 #body__title{
-color: white;
+color: var(--cor-texto);
 margin: 0px;
-margin-bottom: 100px;
+margin-bottom: 30px;
+font-family: var(--fonte-titulo);
 }
 
 .companyImg{
 width: 70%;
-height: 50px;
 margin-bottom: 50px;
 margin: auto;
 
@@ -43,7 +35,22 @@ margin: auto;
 .companyImg .krajee-default.file-preview-frame .kv-file-content {
   width: 100%;
 }
-.enviar{
-  margin-top: 25px;
-  margin-left: 40%;
+
+.btn-primary {
+  background-color: var(--bluecake);
+  border-color: var(--bluecake);
+}
+body {
+  font-family: var(--fonte-corpo);
+}
+.btn-secondary {
+  margin-bottom: 10px;
+  background-color: #e23f51;
+  border-color: #e23f51;
+  width: 100%; 
+
+}
+.enviar-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
 }
