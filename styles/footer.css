@@ -16,12 +16,11 @@ body {
     
 }
 .footer{
-    margin-top: 2.5%;
     background-color: var(--bluecake);
 }
 .logoImg{
-    margin: 25px;
-    height: 58px;
+    /* margin: 25px;
+    height: 58px; */
 }
 
 .rodape_parceiros{
@@ -36,6 +35,6 @@ body {
 }
 
 .icn-sc {
-    padding-left: 50px;
+    /* padding-left: 50px; */
     
 }
