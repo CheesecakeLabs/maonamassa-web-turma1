@@ -1,9 +1,18 @@
-.navbar{
-  background-color: var(--bluecake);
+.navbar-header {
+  max-width: 1130px;
+  margin: auto;
 }
 
+.navbar-header-container {
+  background-color: var(--bluecake);
+  font-family: var(--fonte-corpo);
+}
 .navbar-brand img{
   width:100px;
+}
+
+#navbarSupportedContent {
+  background-color: var(--bluecake);
 }
 
 .header--search-input{
@@ -19,6 +28,7 @@
 .header--search-input::-webkit-input-placeholder {
   color: #BDBDBD;
 }
+
 .header--menu .nav-item {
   border-right: 2px white solid;
 
