@@ -82,7 +82,7 @@ padding: 16px;
     text-decoration: none;
 } 
 .row-pesquisa .select2-container {
-    width: 100%;
+    width: 100% !important; 
 }
 
 .row-pesquisa .select2-container--default .select2-selection--multiple {
@@ -166,4 +166,12 @@ margin-left: 5.5px;
 }
 body {
     background-color: #fff;
-    }
+}
+
+.pesquisa{
+    padding-top: 12px;
+
+}
+
+
+
