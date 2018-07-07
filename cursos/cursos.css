@@ -47,9 +47,10 @@
 
 .lista-logo {
     width: 100%;
+    height: 120px;
     border-radius: 8px;
-    overflow: hidden;
-    height: auto;
+    object-fit: cover;
+    
 }
 
 .row.row-pesquisa {
@@ -168,8 +169,10 @@ body {
     background-color: #fff;
 }
 
-.pesquisa{
-    padding-top: 12px;
+@media(max-width:992px){
+    .pesquisa{
+        padding-top: 12px;
+    }
 
 }
 
