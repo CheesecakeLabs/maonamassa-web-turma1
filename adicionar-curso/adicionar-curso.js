@@ -62,7 +62,7 @@
             uploadBatch: 'batch file upload',
             uploadExtra: 'form data upload'
         },
-        dropZoneTitle: 'Arraste os arquivos aqui',
+        dropZoneTitle: 'Envie sua foto aqui',
         dropZoneClickTitle: '<br>(or click to select {files})',
         fileActionSettings: {
             removeTitle: 'Remove file',
