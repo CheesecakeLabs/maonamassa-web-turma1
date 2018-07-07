@@ -168,10 +168,8 @@ body {
     background-color: #fff;
 }
 
-.pesquisa{
-    padding-top: 12px;
 
+@media(max-width:991px) {
+    .pesquisa{margin-top:12px }
 }
-
-
 
