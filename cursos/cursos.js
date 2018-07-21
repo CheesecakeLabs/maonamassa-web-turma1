@@ -1,6 +1,6 @@
 var meucurso = `
     <div class="card card-curso">
-        <a href="/curso">
+        <a href="/curso" class="link-curso">
             <div class="row">
                 <div class="col-4 col-md-4 col-lg-2 lista-curso ">
                     <div class="lista-imagem">
@@ -40,6 +40,7 @@ $(document).ready(function () {
 
         $(chaves).each(function(index) {
             var Curso = $(meucurso);
+            Curso.find('.link-curso').attr('href', '/curso?id=' + chaves[index])
             Curso.find('.lista-logo').attr("src",data[this].imageUrl);
             Curso.find('.lista-titulo').html(data[this].title);
             Curso.find('.lista-descricao').html(data[this].description);
