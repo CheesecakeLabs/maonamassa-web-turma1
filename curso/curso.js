@@ -1,6 +1,7 @@
 $(document).ready(function() {
   var id = getUrlParameter('id');
   var meuprojeto = 'https://ondetem-c714c.firebaseio.com/projects/' + id + '.json';
+<<<<<<< Updated upstream
 
   // var googleMapsURL = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyD2iTFB6jOZX4lKRxGezpV-9rjlW_E-V1E&q='
 
@@ -53,6 +54,20 @@ $(document).ready(function() {
         $('.mapa').attr('src', googleMapsURL)
       })
       .fail(function() { alert('Deu ruim'); });
+=======
+  console.log(meuprojeto);
+  $.get(meuprojeto)
+  .done(function(data){
+      var chaves2 = Object.keys(data);
+
+      $(chaves2).each(function(index) {
+var Curso = $(meuprojeto);
+Curso.find('').attr('',''+ chaves[index])
+      }
+     
+
+  }
+>>>>>>> Stashed changes
 });
 
 var getUrlParameter = function getUrlParameter(sParam) {
