@@ -85,7 +85,7 @@
             close: 'Close detailed preview'
         }
     };
-    
+
     $("#input-fa").fileinput({
         browseClass: "btn btn-primary btn-block",
         showCaption: false,
@@ -96,3 +96,11 @@
         theme: 'fa',
     });
 })(window.jQuery);
+
+$(document).ready(function() {
+
+    var botao = $('.enviar');
+    botao.on('click', function() {
+        // pegar os dados
+    });
+});
