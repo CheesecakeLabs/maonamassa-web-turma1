@@ -7,8 +7,14 @@
   background-color: var(--bluecake);
   font-family: var(--fonte-corpo);
 }
+
+.navbar-brand{
+  padding: 0;
+}
+
+
 .navbar-brand img{
-  width:100px;
+  width:110px;
 }
 
 #navbarSupportedContent {
