@@ -39,16 +39,17 @@ $(document).ready(function () {
         var chaves = Object.keys(data);
 
         $(chaves).each(function(index) {
-            var Curso = $(meucurso);
-            Curso.find('.link-curso').attr('href', '/curso?id=' + chaves[index])
-            Curso.find('.lista-logo').attr("src",data[this].imageUrl);
-            Curso.find('.lista-titulo').html(data[this].title);
-            Curso.find('.lista-descricao').html(data[this].description);
-            Curso.find('.lista-item.local').html(data[this].place);
-            Curso.find('span.data-inicio').html(data[this].dateStart);
-            Curso.appendTo($("#lista-cursos"));
+            if (data[this].approved === true) {
+                var Curso = $(meucurso);
+                Curso.find('.link-curso').attr('href', '/curso/?id=' + chaves[index])
+                Curso.find('.lista-logo').attr("src",data[this].imageUrl);
+                Curso.find('.lista-titulo').html(data[this].title);
+                Curso.find('.lista-descricao').html(data[this].description);
+                Curso.find('.lista-item.local').html(data[this].place);
+                Curso.find('span.data-inicio').html(data[this].dateStart);
+                Curso.appendTo($("#lista-cursos"));
+            }
         });
       })
       .fail(function() { alert('Deu ruim'); });
-
 });
