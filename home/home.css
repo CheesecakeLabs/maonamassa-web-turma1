@@ -4,10 +4,23 @@
 }
 .header__slide{
     height: 500px;
-    background-image: url(http://www.empregoerenda.com.br/images/cursos/com-as-maos-na-massa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.carousel-item-1 {
+    background-image: url(/home/images/foto1.jpg);
+}
+
+.carousel-item-2 {
+    background-image: url(/home/images/foto2.jpg);
+}
+
+.carousel-item-3 {
+    background-image: url(/home/images/foto3.jpg);
+}
+
+
 .carousel-control-next, .carousel-control-prev {
     z-index: 15;
 }
@@ -23,7 +36,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.2 )
+    background-color: rgba(0, 0, 0, 0.4 )
 }
 .button-carousel{
     border-radius: 30px;
@@ -75,8 +88,11 @@
 
 .sobre-a-equipe{
     margin: 0 auto;
-    text-align: center;
-    
+    text-align: center;    
+}
+
+.sobre-a-equipe p {
+    max-width: 750px;
 }
 
 .sobre-a-equipe h1{
@@ -101,8 +117,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    height: 400px;
-    width: 800px;
+    width: 610px;
     object-fit: cover;
     max-width: 100%;
     border-radius: 5px;
