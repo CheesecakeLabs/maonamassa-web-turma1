@@ -88,8 +88,11 @@
 
 .sobre-a-equipe{
     margin: 0 auto;
-    text-align: center;
-    
+    text-align: center;    
+}
+
+.sobre-a-equipe p {
+    max-width: 750px;
 }
 
 .sobre-a-equipe h1{
@@ -114,8 +117,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    height: 400px;
-    width: 800px;
+    width: 610px;
     object-fit: cover;
     max-width: 100%;
     border-radius: 5px;
