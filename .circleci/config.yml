@@ -1,0 +1,30 @@
+version: 2
+jobs:
+    deploy:
+        docker:
+            - image: circleci/python:3.6-jessie-browsers
+        steps:
+            - checkout
+            - run:
+                name: Install dependencies
+                command: pip install awscli --upgrade --user
+
+            - run:
+                name: Create AWS credentials
+                command: |
+                    mkdir -p ~/.aws/
+                    touch ~/.aws/credentials
+                    echo "[default]\naws_access_key_id=${AWS_ACCESS_KEY_ID}\naws_secret_access_key=${AWS_SECRET_ACCESS_KEY}" > ~/.aws/credentials
+            - run:
+                name: Deploy to S3
+                working_directory: ~/project
+                command: ~/.local/bin/aws s3 sync . s3://${S3_BUCKET} --delete --acl public-read
+
+workflows:
+    version: 2
+    deploy-to-s3:
+        jobs:
+            - deploy:
+                filters:
+                    branches:
+                        only: /master/
