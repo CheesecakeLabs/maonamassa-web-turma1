@@ -4,10 +4,23 @@
 }
 .header__slide{
     height: 500px;
-    background-image: url(http://www.empregoerenda.com.br/images/cursos/com-as-maos-na-massa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.carousel-item-1 {
+    background-image: url(/home/images/foto1.jpg);
+}
+
+.carousel-item-2 {
+    background-image: url(/home/images/foto2.jpg);
+}
+
+.carousel-item-3 {
+    background-image: url(/home/images/foto3.jpg);
+}
+
+
 .carousel-control-next, .carousel-control-prev {
     z-index: 15;
 }
