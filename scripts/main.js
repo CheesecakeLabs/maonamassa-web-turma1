@@ -22,3 +22,26 @@ function includeHTML() {
 }
 
 includeHTML();
+
+$(document).ready(function(){
+  $("body").on("submit", "#form-contato", function(event){
+    event.preventDefault();
+    var nome = $('#contato-nome').val();
+    var email =  $('#contato-email').val();
+    var mensagem =  $('#contato-mensagem').val();
+
+    $.ajax({
+      url: 'https://ondetem-c714c.firebaseio.com/contacts.json',
+      method: "POST",
+      data: JSON.stringify({
+        name: nome,
+        email: email,
+        message: mensagem,
+      }),
+      contentType: "application/json",
+      success: function() {
+        alert("Sua mensagem foi enviada com sucesso");
+      }
+    });
+  })
+});
