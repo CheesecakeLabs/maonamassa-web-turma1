@@ -100,7 +100,47 @@
 $(document).ready(function() {
 
     var botao = $('.enviar');
-    botao.on('click', function() {
+    botao.on('click', function(event) {
+        event.preventDefault()
+        var nome = $('#inputName').val()
+        var email = $('#inputEmail').val()
+        var imagem = $('#inputImagem').val()
+        var descricao = $('#inputDetail').val()
+        var dataInicio = $('#inputDataInicio').val()
+        var dataFim = $('#inputDataFim').val()
+        var requisitos = $('#inputRequirements').val()
+        var data = {
+            approved: false,
+            contactEmail: email,
+            contactName: "",
+            contactPhone: "",
+            contactSite: "",
+            dateStart: dataInicio,
+            description: descricao,
+            imageUrl: imagem,
+            minAge: 0,
+            minSchool: "",
+            mode: "",
+            owner: "",
+            period: "",
+            place: "",
+            title: nome,
+        }
+
         // pegar os dados
+        $.ajax({
+            url: 'https://ondetem-c714c.firebaseio.com/projects.json',
+            type: 'post',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(data),
+            success: function (result){
+                alert("CURSO ENVIADO COM SUCESSO!")
+            },
+            fail: function(result) {
+                alert("FALHOU MISERAVELMENTE")
+            }
+
+        })
     });
 });
