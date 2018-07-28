@@ -35,3 +35,12 @@
     /* padding-left: 50px; */
     
 }
+
+.btn-enviar {
+    background-color:#166395;
+}
+
+.btn-enviar:hover {
+    background-color:#1e85c8;
+    border-color:#1e85c8;
+}

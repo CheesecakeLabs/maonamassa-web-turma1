@@ -98,7 +98,6 @@
 })(window.jQuery);
 
 $(document).ready(function() {
-
     var form = $('form');
     form.on('submit', function(event) {
         event.preventDefault()
@@ -144,3 +143,4 @@ $(document).ready(function() {
         })
     });
 });
+.fail(function() {alert('Deu ruim'); });

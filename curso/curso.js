@@ -30,15 +30,21 @@ $(document).ready(function() {
         $('#profile').html(profileHTML);
 
         var contatoHTML = `
+        <div>
         <p>
           <b>Nome:</b> ${data.contactName}
         </p>
+        </div>
+        <div>
         <p>
           <b>E-mail:</b> ${data.contactEmail}
         </p>
+        </div>
+        <div>
         <p>
           <b>Telefone:</b> ${data.contactPhone}
         </p>
+        </div>
         `;
 
         $('.contato-curso').html(contatoHTML);
