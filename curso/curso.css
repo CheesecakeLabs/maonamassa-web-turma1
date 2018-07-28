@@ -16,10 +16,15 @@ body {
 }
 
 .local_title {
-    align-items: center;
     margin-bottom: 10px;
-
 }
+
+.local_icon{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
 
 .row.nav-panel-box {
     margin: 0;
@@ -50,7 +55,7 @@ button {
 .tab-content {
     border: 5px solid #3FA2E2;
     min-height: 250px;
-    border-radius: 3px;
+    border-radius: 0 0 3px 3px;
 }
 
 .nav-tabs {
@@ -74,7 +79,7 @@ button {
     color: #000;
 }
 
-.curso__topo .col{
+.curso__topo .col {
     display:flex;
     align-items: flex-end;
 }
@@ -98,11 +103,6 @@ button {
     display: flex;
     align-items: center;
     background-color: #FFFFFF;
-}
-
-.mapa {
-    border: solid var(--bluecake) 2px;
-    border-radius: 8px;
 }
 
 iframe {
