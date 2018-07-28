@@ -100,27 +100,7 @@
 $(document).ready(function() {
 
     var botao = $('.enviar');
-    var nome = $('.inputName');
-    var email = $('.inputEmail');
-    var imagem = $('.cursoImagem');
-    var detail = $('.InputDetail');
     botao.on('click', function() {
-        $('#inputName').val()
-        $('#inputEmail').val()
-        $('#cursoImagem').val()
-        $('#inputDetail').val()
-        if(nome != '' && email != '' && imagem != ''&& detail != '') {
-            $.ajax({
-                method: 'POST',
-                dataType: 'json',
-                contentType: 'appication/json',
-                
-            })
-        };
-        
-        else{
-            function Error(){alert("Preencha todos os campos!");}
-        }
+        // pegar os dados
     });
 });
-.fail(function() {alert('Deu ruim'); });
