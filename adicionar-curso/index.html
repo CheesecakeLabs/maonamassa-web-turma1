@@ -32,9 +32,10 @@
       </div>
       <div class="row formulario__row">
         <div class="col formulario__col-informacao">
-          <!-- <form class="formulario"> -->
+          <form class="formulario">
             <div class="row">
               <div class="col">
+               
                 <div class="form-group">
                   <label for="inputName">Nome</label>
                   <input type="text" class="form-control" id="inputName" placeholder="Digite aqui" required>
@@ -53,7 +54,7 @@
               <div class="col">
                 <div class="form-group">
                   <label for="inputEmail">Imagem do curso</label>
-                  <input type="text" class="form-control" id="cursoImagem" placeholder="Digite aqui" required>
+                  <input type="text" class="form-control" id="inputImagem" placeholder="Digite aqui" required>
                 </div>
               </div>
             </div>
@@ -69,13 +70,13 @@
               <div class="col">
                 <div class="form-group">
                   <label for="inputDate">Data de início</label>
-                  <input type="date" name="sDt" min="1000-01-01" max="3000-12-31" class="form-control" required>
+                  <input type="date" name="sDt" min="1000-01-01" max="3000-12-31" id="inputDataInicio" class="form-control" required>
                 </div>
               </div>
               <div class="col">
                 <div class="form-group">
                   <label for="inputDate">Data de fim</label>
-                  <input type="date" name="fDt" min="1000-01-01" max="3000-12-31" class="form-control" required>
+                  <input type="date" name="fDt" min="1000-01-01" max="3000-12-31" id="inputDataFim" class="form-control" required>
                 </div>
               </div>
             </div>
@@ -86,11 +87,11 @@
                   <input type="text" class="form-control" id="inputRequirements" placeholder="Digite aqui" required>
                 </div>
                 <div class="enviar-wrapper">
-                  <a href="#" class="btn btn-primary btn-lg enviar" role="button" aria-pressed="true">Enviar</a>
+                  <button type="submit" class="btn btn-primary btn-lg enviar" role="button" aria-pressed="true">Enviar</a>
                 </div>
               </div>
             </div>
-          <!-- </form> -->
+          </form>
         </div>
         <!-- <div class="col formulario__col-imagem">
           <div class="companyImg">

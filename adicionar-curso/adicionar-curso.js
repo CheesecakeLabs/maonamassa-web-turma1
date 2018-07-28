@@ -98,29 +98,49 @@
 })(window.jQuery);
 
 $(document).ready(function() {
-
-    var botao = $('.enviar');
-    var nome = $('.inputName');
-    var email = $('.inputEmail');
-    var imagem = $('.cursoImagem');
-    var detail = $('.InputDetail');
-    botao.on('click', function() {
-        $('#inputName').val()
-        $('#inputEmail').val()
-        $('#cursoImagem').val()
-        $('#inputDetail').val()
-        if(nome != '' && email != '' && imagem != ''&& detail != '') {
-            $.ajax({
-                method: 'POST',
-                dataType: 'json',
-                contentType: 'appication/json',
-                
-            })
-        };
-        
-        else{
-            function Error(){alert("Preencha todos os campos!");}
+    var form = $('form');
+    form.on('submit', function(event) {
+        event.preventDefault()
+        var nome = $('#inputName').val()
+        var email = $('#inputEmail').val()
+        var imagem = $('#inputImagem').val()
+        var descricao = $('#inputDetail').val()
+        var dataInicio = $('#inputDataInicio').val()
+        var dataFim = $('#inputDataFim').val()
+        var requisitos = $('#inputRequirements').val()
+        var data = {
+            approved: false,
+            contactEmail: email,
+            contactName: "",
+            contactPhone: "",
+            contactSite: "",
+            dateStart: dataInicio,
+            description: descricao,
+            imageUrl: imagem,
+            minAge: 0,
+            minSchool: "",
+            mode: "",
+            owner: "",
+            period: "",
+            place: "",
+            title: nome,
         }
+
+        // pegar os dados
+        $.ajax({
+            url: 'https://ondetem-c714c.firebaseio.com/projects.json',
+            type: 'post',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: JSON.stringify(data),
+            success: function (result){
+                alert("CURSO ENVIADO COM SUCESSO!")
+            },
+            fail: function(result) {
+                alert("FALHOU MISERAVELMENTE")
+            }
+
+        })
     });
 });
 .fail(function() {alert('Deu ruim'); });
