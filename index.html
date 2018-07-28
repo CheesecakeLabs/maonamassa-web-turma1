@@ -116,6 +116,23 @@
     });
 
     sr.reveal('.img1');
+
+    var keys 	= [];
+    var konami  = '38,38,40,40,37,39,37,39,66,65';
+    $(document)
+        .keydown(
+        function(e) {
+            keys.push( e.keyCode );
+            if ( keys.toString().indexOf( konami ) >= 0 ){
+              console.log('Have a good time 😉 (https://github.com/WeiChiaChang/easter-egg-collection)');
+              var script = document.createElement("script"); 
+              script.src="https://rawgit.com/WeiChiaChang/Easter-egg/master/easter-eggs-collection.js";
+              document.body.appendChild(script);
+
+                keys = [];
+            }
+        }
+    );
   </script>
 </body>
 
