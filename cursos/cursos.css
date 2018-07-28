@@ -1,3 +1,7 @@
+.lista-cursos {
+    margin-top: 3em;
+}
+
 .lista-titulo {
     font-weight: bold;
     font-size: 18px;
@@ -18,13 +22,13 @@
 
 }
 
-@media (max-width: 991px) 
+@media (max-width: 991px)
 {
     .lista-descricao {
     margin-top: 8px;
-    
+
     }
- 
+
 }
 
 .lista-tags {
@@ -50,7 +54,7 @@
     height: 120px;
     border-radius: 8px;
     object-fit: cover;
-    
+
 }
 
 .row.row-pesquisa {
@@ -59,7 +63,7 @@
     /* margin: 15px 0px; */
 }
 
-@media (max-width: 991px) 
+@media (max-width: 991px)
 {
     .row-pesquisa {
     padding: 5px;
@@ -81,9 +85,9 @@ padding: 16px;
 .card.card-curso a {
     color: #212529;
     text-decoration: none;
-} 
+}
 .row-pesquisa .select2-container {
-    width: 100% !important; 
+    width: 100% !important;
 }
 
 .row-pesquisa .select2-container--default .select2-selection--multiple {
@@ -176,5 +180,6 @@ body {
 
 }
 
-
-
+.card-curso:hover {
+    box-shadow: 1px 1px 10px #ddd;
+}
