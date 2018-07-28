@@ -99,8 +99,8 @@
 
 $(document).ready(function() {
 
-    var botao = $('.enviar');
-    botao.on('click', function(event) {
+    var form = $('form');
+    form.on('submit', function(event) {
         event.preventDefault()
         var nome = $('#inputName').val()
         var email = $('#inputEmail').val()
